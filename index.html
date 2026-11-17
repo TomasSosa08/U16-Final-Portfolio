@@ -1,0 +1,303 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio personal de Tomás Sosa. Explorá mis proyectos de desarrollo web, diseño y programación.">
+    <title>Tomás Sosa | Developer Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="background-effects">
+        <div class="gradient-orb orb-one"></div>
+        <div class="gradient-orb orb-two"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <a href="#home" class="logo">
+            <span class="logo-mark">TS</span>
+            <span>Tomás Sosa<span class="logo-dot">.</span></span>
+        </a>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+            <button class="theme-toggle" id="themeToggle" aria-label="Cambiar tema">
+                <span id="themeIcon">☀</span>
+            </button>
+            <a href="#projects" class="nav-cta">Explore work <span>↗</span></a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero section-container" id="home">
+
+            <div class="hero-content">
+                <div class="availability">
+                    <span class="availability-dot"></span>
+                    STUDENT DEVELOPER · PORTFOLIO 2026
+                </div>
+
+                <p class="hero-eyebrow">HELLO, I'M</p>
+
+                <h1>
+                    Tomás<br>
+                    <span class="gradient-text">Sosa.</span>
+                </h1>
+
+                <h2 class="hero-subtitle">
+                    Building digital experiences<br>
+                    through <span>code & creativity.</span>
+                </h2>
+
+                <p class="hero-description">
+                    Welcome to my digital portfolio. Here you'll find a collection
+                    of projects where I explore web development, interactive
+                    experiences, design and programming.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="button-primary">
+                        Explore my projects <span>↗</span>
+                    </a>
+                    <a href="#about" class="button-secondary">
+                        Discover more <span>↓</span>
+                    </a>
+                </div>
+
+                <div class="hero-social">
+                    <span>BASED IN ARGENTINA</span>
+                    <span class="social-line"></span>
+                    <span>CREATIVE · CURIOUS · DEVELOPER</span>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="visual-card main-visual-card">
+                    <div class="visual-top">
+                        <div class="window-dots">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <span class="visual-label">MY DIGITAL WORLD</span>
+                    </div>
+
+                    <div class="code-window">
+                        <p><span class="code-purple">const</span> developer = {</p>
+                        <p class="code-indent">name: <span class="code-green">"Tomás Sosa"</span>,</p>
+                        <p class="code-indent">focus: <span class="code-green">"Web Development"</span>,</p>
+                        <p class="code-indent">mindset: <span class="code-green">"Always learning"</span>,</p>
+                        <p class="code-indent">creativity: <span class="code-orange">100</span></p>
+                        <p>};</p>
+                        <br>
+                        <p><span class="code-purple">function</span> <span class="code-blue">createSomething</span>() {</p>
+                        <p class="code-indent">return <span class="code-green">"Something amazing"</span>;</p>
+                        <p>}</p>
+                    </div>
+
+                    <div class="visual-bottom">
+                        <span class="terminal-status"><span></span> SYSTEM ONLINE</span>
+                        <span>BUILDING THE FUTURE_</span>
+                    </div>
+                </div>
+
+                <div class="floating-card floating-card-one">
+                    <span class="floating-icon">✦</span>
+                    <div>
+                        <strong>10 Projects</strong>
+                        <small>Created & published</small>
+                    </div>
+                </div>
+
+                <div class="floating-card floating-card-two">
+                    <span class="floating-icon purple-icon">⌘</span>
+                    <div>
+                        <strong>Always learning</strong>
+                        <small>One line at a time</small>
+                    </div>
+                </div>
+
+                <div class="visual-decoration decoration-one"></div>
+                <div class="visual-decoration decoration-two"></div>
+            </div>
+
+            <a href="#about" class="scroll-indicator">
+                <span class="scroll-mouse"></span>
+                SCROLL TO EXPLORE
+            </a>
+        </section>
+
+        <!-- STATS -->
+        <section class="stats-section section-container" id="about">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="10">10</span>
+                    <span class="stat-label">PUBLISHED PROJECTS</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">HTML</span>
+                    <span class="stat-label">STRUCTURE</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">CSS</span>
+                    <span class="stat-label">DESIGN & STYLE</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">JS</span>
+                    <span class="stat-label">INTERACTIVITY</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about-section section-container">
+            <div class="section-heading">
+                <span class="section-kicker">01 / ABOUT ME</span>
+                <h2>A little bit <span class="gradient-text">about me.</span></h2>
+            </div>
+
+            <div class="about-content">
+                <div class="about-main">
+                    <div class="about-symbol">TS<span>.</span></div>
+                    <div>
+                        <h3>Curiosity drives creation.</h3>
+                        <p>
+                            I'm Tomás, a student exploring the world of technology
+                            and web development. I enjoy turning ideas into
+                            functional digital experiences, experimenting with
+                            design and learning how things work behind the screen.
+                        </p>
+                        <p>
+                            This portfolio brings together my work, progress and
+                            the skills I've been developing throughout my journey.
+                            Every project represents a new challenge and an
+                            opportunity to improve.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="skills-panel">
+                    <span class="panel-label">MY TOOLKIT</span>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-icon html-icon">5</span>
+                            <span>HTML5</span>
+                            <span class="skill-level">STRUCTURE</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-icon css-icon">3</span>
+                            <span>CSS3</span>
+                            <span class="skill-level">STYLING</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-icon js-icon">JS</span>
+                            <span>JavaScript</span>
+                            <span class="skill-level">LOGIC</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-icon git-icon">⌘</span>
+                            <span>Git & GitHub</span>
+                            <span class="skill-level">VERSION CONTROL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="projects-section section-container" id="projects">
+
+            <div class="projects-heading">
+                <div class="section-heading">
+                    <span class="section-kicker">02 / SELECTED WORK</span>
+                    <h2>Things I've <span class="gradient-text">built.</span></h2>
+                    <p class="section-description">
+                        A collection of projects, experiments and ideas brought to life.
+                    </p>
+                </div>
+
+                <div class="project-counter">
+                    <span id="visibleCount">10</span>
+                    <span>PROJECTS AVAILABLE</span>
+                </div>
+            </div>
+
+            <div class="project-controls">
+                <div class="filter-list" id="filterList">
+                    <button class="filter-button active" data-filter="all">All projects <span>10</span></button>
+                    <button class="filter-button" data-filter="web">Web design</button>
+                    <button class="filter-button" data-filter="javascript">JavaScript</button>
+                    <button class="filter-button" data-filter="interactive">Interactive</button>
+                </div>
+
+                <div class="search-box">
+                    <span>⌕</span>
+                    <input type="search" id="projectSearch" placeholder="Search projects..." aria-label="Buscar proyectos">
+                    <span class="search-shortcut">⌘ K</span>
+                </div>
+            </div>
+
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Las tarjetas se generan desde script.js -->
+            </div>
+
+            <div class="no-results hidden" id="noResults">
+                <span>⌕</span>
+                <h3>No projects found</h3>
+                <p>Try another search or select a different category.</p>
+                <button id="resetFilters" class="button-secondary">Reset filters</button>
+            </div>
+
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact-section section-container" id="contact">
+            <div class="contact-card">
+                <div class="contact-decoration"></div>
+                <span class="section-kicker">03 / WHAT'S NEXT?</span>
+                <h2>Every great idea<br>starts with a <span class="gradient-text">hello.</span></h2>
+                <p>
+                    Thanks for taking the time to explore my work.
+                    This is just the beginning of my journey.
+                </p>
+                <a href="#home" class="button-primary">
+                    Back to top <span>↑</span>
+                </a>
+                <div class="contact-bottom">
+                    <span>LET'S KEEP BUILDING.</span>
+                    <span>© 2026 TOMÁS SOSA</span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer section-container">
+        <a href="#home" class="logo">
+            <span class="logo-mark">TS</span>
+            <span>Tomás Sosa<span class="logo-dot">.</span></span>
+        </a>
+        <p>Designed & developed with curiosity.</p>
+        <a href="#home" class="back-top">BACK TO TOP ↑</a>
+    </footer>
+
+</body>
+</html>
